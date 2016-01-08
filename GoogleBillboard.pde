@@ -35,7 +35,7 @@ public boolean isPrime(double dNum)
     }
     for (int i =2; i<=Math.sqrt(dNum);i++)
     {
-    	if (dNum %1 ==0)
+    	if (dNum %i ==0)
     	{
     		return false;
     	}
